@@ -1,1 +1,1 @@
-tf-transfer-learning-image-classifier
+TensorFlow.js Transfer Learning Image Classifier
