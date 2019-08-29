@@ -2,16 +2,23 @@
 
     <head>
         <!-- Load the latest version of TensorFlow.js -->
-        <script src="https://unpkg.com/@tensorflow/tfjs"></script>
-        <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+        <script defer src="https://unpkg.com/@tensorflow/tfjs"></script>
+        <!-- Load mobilenet models -->
+        <script defer src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+        <!-- Load k-nearest neightbors classifier -->
+        <script defer src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+        <!-- Load index.js after the content of the page -->
+        <script defer src="index.js"></script>
     </head>
 
     <body>
         <div id="console"></div>
         <!-- Webcam used for image classification -->
         <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
-        <!-- Load index.js after the content of the page -->
-        <script src="index.js"></script>
+        <!-- Buttons to add training images to model -->
+        <button id="class-a">Add A</button>
+        <button id="class-b">Add B</button>
+        <button id="class-c">Add C</button>
     </body>
 
 </html>
