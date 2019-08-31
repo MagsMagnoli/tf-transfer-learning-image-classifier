@@ -15,4 +15,5 @@ Based on [this](https://codelabs.developers.google.com/codelabs/tensorflowjs-tea
 
 ## Help / Questions
 
-Have questions about Machine Learning or run into any issues related to this repo? Reach out to me on [Twitter (@MagsMagnoli)](https://twitter.com/magsmagnoli)
+Have questions about Machine Learning or run into any issues related to this repo?  
+Reach out to me on [Twitter (@MagsMagnoli)](https://twitter.com/magsmagnoli)
